@@ -1,0 +1,20 @@
+.column {
+  float: left;
+  width: 43.33%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.columns {
+  float: none;
+  width: 33.33%;
+  padding: 5px;
+}
+.columnss {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
